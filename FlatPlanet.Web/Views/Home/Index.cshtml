@@ -1,0 +1,14 @@
+﻿@model IEnumerable<FlatPlanet.DAL.Entities.ButtonEventDetails>
+
+@{
+    ViewBag.Title = "FlatPlanet";
+}
+
+<h2>Index</h2>
+
+<div>
+    <button type="button" onclick="location.href='@Url.Action("Click", "Home")'"> Click Me</button>
+     Click Count:  @Model.Count()
+</div>
+<p>
+</p>
